@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Class="BlobQuickstartV12.MainPage">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+        <Button Text="Upload Blob" Clicked="Upload_Clicked" x:Name="uploadButton" IsEnabled="False"/>
+        <Button Text="List Blobs" Clicked="List_Clicked" x:Name="listButton" IsEnabled="False" />
+        <Button Text="Download Blob" Clicked="Download_Clicked" x:Name="downloadButton" IsEnabled="False" />
+        <Button Text="Delete Container" Clicked="Delete_Clicked" x:Name="deleteButton" IsEnabled="False" />
+
+        <Label Text="" x:Name="resultsLabel" HorizontalTextAlignment="Center" Margin="0,20,0,0" TextColor="Red" />
+        
+    </StackLayout>
+
+</ContentPage>
