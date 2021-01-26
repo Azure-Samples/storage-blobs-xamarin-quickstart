@@ -11,7 +11,7 @@ urlFragment: "storage-blobs-xamarin-quickstart"
 
 # Official Microsoft Sample
 
-Azure Blob storage is Microsoft's object storage solution for the cloud. Blob storage is optimized for storing massive amounts of unstructured data.
+Azure Blob Storage is Microsoft's object storage solution for the cloud. Blob storage is optimized for storing massive amounts of unstructured data.
 
 Xamarin is Microsoft's mobile development framework. Xamarin allows you to create apps for iOS, Android, and UWP from one codebase with C# and .NET
 
@@ -67,7 +67,7 @@ The open the `src\BlobQuickstartV12.sln` file from Visual Studio 2019 or Visual 
 
 ## Key Concepts
 
-These example code snippets show you how key concepts when using the Azure Blob storage client library for .NET in a Xamarin.Forms app:
+These example code snippets show you how key concepts when using the Azure Blob Storage client library for .NET in a Xamarin.Forms app:
 
 * [Create class level variables](#create-class-level-variables)
 * [Create a container](#create-a-container)
@@ -78,7 +78,7 @@ These example code snippets show you how key concepts when using the Azure Blob 
 
 ### Create class level variables
 
-The code below declares several class level variables needed to communicate to Azure Blob storage.
+The code below declares several class level variables needed to communicate to Azure Blob Storage.
 
 The class level variables below are in addition to the connection string for the storage account set in the [Configure your storage connection string](#configure-your-storage-connection-string) section.
 
